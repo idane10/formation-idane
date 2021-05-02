@@ -1,0 +1,19 @@
+p{color:blue; font-size:40px;}
+h6{color: black; font-size:40px;}
+	div {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  animation-name: idane;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes idane {
+ 0% {background-color: blue;}
+ 20% {background-color: red}
+ 40% {background-color: green}
+ 60% {background-color: white}
+ 80%{background-color: yellow}
+ 100%{background-color: black}
+
+}
